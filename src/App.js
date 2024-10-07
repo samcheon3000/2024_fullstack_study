@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Gallery from './Profile.js'; // Gallery import
+import TodoList from './Todolist.js';
+
 
 function App() {
   return (
@@ -18,8 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Gallery /> {/* Gallery 컴포넌트 사용 */}
+      <TodoList />
     </div>
   );
 }
+
 
 export default App;
